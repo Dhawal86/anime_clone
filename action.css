@@ -1,0 +1,56 @@
+
+body{
+    background-color: rgb(4, 4,4 );
+    color:rgb(225, 166, 17) ;
+}
+.heading{
+    top: 120px;
+    color: rgb(225, 166, 17);
+}
+.opmimg{
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    height: 150px;
+    width: 85px;
+}
+.opmdes{
+    font-size: large;
+    font-weight: bold;
+    padding: 25px;
+    line-height: 42px;
+}
+.watch{
+    color: black;
+    background-color: rgb(225, 166, 17);
+    border: none;
+    border-radius: 2px;
+    font-size:medium;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.trail{
+    color: black;
+    background-color: rgb(225, 166, 17);
+    border: none;
+    border-radius: 2px;
+    font-size:medium;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.trail:hover{
+    opacity: 0.5;
+}
+.watch:hover{
+    opacity: 0.5;
+}
+.trail:active{
+    opacity: 1;
+}
+.watch:active{
+    opacity: 1;
+}

@@ -1,0 +1,70 @@
+#button1{
+    color: black;
+    background-color: rgb(225, 166, 17);
+    border: none;
+    border-radius: 2px;
+    font-size:small;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    position: relative;
+    
+}
+#login{
+    float: right;
+    margin: 2px;
+    display: flex;
+    align-self: center;
+}
+#sublist{
+    visibility: hidden;
+    position:absolute;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgb(66, 61, 61);
+    
+}
+#sublist li{
+    float: none;
+}
+li:hover ul#sublist{
+    opacity: 1;
+    visibility: visible;
+   
+}
+.epi{
+    display: flex;
+    padding: 20px;
+       
+    
+}
+.buttons{
+    padding: 5px;
+    margin: 15px;
+    
+}
+button{
+    color: black;
+    background-color: rgb(225, 166, 17);
+    border: none;
+    border-radius: 2px;
+    font-size:medium;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    opacity: 0.5px;
+}
+button:active{
+    opacity: 1px;
+}
+body{
+    background-color: rgb(22, 22, 22);
+    color:rgb(225, 166, 17) ;       
+    
+}
+video{
+    margin: 80px;
+}

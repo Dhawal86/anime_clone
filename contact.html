@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="login2.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header class="headTop">
+    <ul class="headerUl">
+        <li><a href="site.html" class="navo" id="home" target="_blank"><img src="logo.png" alt="home"
+                    class="image"></a></li>
+        <li><a href="About.html" class="navo" id="about">About</a></li>
+        <li><a href="contact.html" class="navo" id="Contact">Contact Us</a></li>
+        <li><a href="#" class="navo" id="Genres"> Genres</a>
+            <ul id="sublist">
+                <li><a href="Action.html">Action</a></li>
+                <li><a href="Adventure.html">Adventure</a></li>
+                <li><a href="Romance.html">Romance</a></li>
+                <li><a href="Isekai.html">Isekai</a></li>
+                <li><a href="Slice.html">Slice of life</a></li>
+                <li><a href="Ecchi.html">Ecchi</a></li>
+                <li><a href="Horror.html">Horror</a></li>
+                <li><a href="Sports.html">Sports</a></li>
+                <li><a href="Music.html">Music</a></li>
+            </ul>
+        </li>
+    </ul>
+    <div class="navo" id="login"><a href=login.php><button id="button1"><b>Login</b></button></a></div>
+</header>
+        <h2>Contact Us</h2>
+<form action="submit_form.php" method="post">
+    <label for="reason">Reason for Contact:</label><br>
+    <select id="reason" name="reason">
+        <option value="General Inquiry">General Inquiry</option>
+        <option value="Technical Support">Technical Support</option>
+        <option value="Feedback">Feedback</option>
+        <option value="Other">Other</option>
+    </select><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
+    <label for="feedback">Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<footer>
+    <div class="social-icons">
+        <a href="https://www.instagram.com/your_insta_id" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://twitter.com/your_twitter_id" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.reddit.com/user/your_reddit_id" target="_blank"><i class="fab fa-reddit"></i></a>
+        <a href="mailto:your@gmail.com"><i class="far fa-envelope"></i></a>
+    </div>
+</footer>
+</body>
+</html>

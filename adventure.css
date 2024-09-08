@@ -1,0 +1,116 @@
+.image{
+    height: 35px;
+}
+.navo{
+    margin-right: 40px;
+    text-decoration: none;
+    color:rgb(225, 166, 17);
+    transition: 30ms;
+}
+.navo:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+.navigation{
+    background-color: rgb(45, 42, 42);
+    border-radius: 5px;
+    padding: 2px;
+    position: sticky;
+    width: 98.8%;
+    top: 1%;
+    border:none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.navigation ul{
+    list-style: none;
+}
+.navigation li{
+    float: left;
+}
+#button1{
+    color: black;
+    background-color: rgb(225, 166, 17);
+    border: none;
+    border-radius: 2px;
+    font-size:small;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    position: relative;
+    
+}
+#login{
+    float: right;
+    margin: 2px;
+    display: flex;
+    align-self: center;
+}
+#sublist{
+    visibility: hidden;
+    position:absolute;
+    z-index: 1;
+    opacity: 0;
+    background-color: rgb(66, 61, 61);
+    
+}
+#sublist li{
+    float: none;
+}
+li:hover ul#sublist{
+    opacity: 1;
+    visibility: visible;
+   
+}
+body{
+    background-color: rgb(4, 4,4 );
+    color:rgb(225, 166, 17) ;
+}
+.opmimg{
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    height: 150px;
+    width: 85px;
+}
+.opmdes{
+    font-size: large;
+    font-weight: bold;
+    padding: 25px;
+    line-height: 42px;
+}
+.watch{
+    color: black;
+    background-color: rgb(225, 166, 17);
+    border: none;
+    border-radius: 2px;
+    font-size:medium;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.trail{
+    color: black;
+    background-color: rgb(225, 166, 17);
+    border: none;
+    border-radius: 2px;
+    font-size:medium;
+    padding: 7px;
+    margin: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.trail:hover{
+    opacity: 0.5;
+}
+.watch:hover{
+    opacity: 0.5;
+}
+.trail:active{
+    opacity: 1;
+}
+.watch:active{
+    opacity: 1;
+}
